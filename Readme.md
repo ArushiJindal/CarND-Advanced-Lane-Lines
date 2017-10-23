@@ -17,7 +17,7 @@ Broadly, the following steps are done
 8. Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 
-# The Entire Pipeline
+# The Complete Pipeline
 
 ## Camera Calibration
 
