@@ -31,7 +31,7 @@ These locations are then used in another OpenCV function calibrateCamera  to com
 
 This camera calibration matrix and distortion coefficeints are used with OpenCV function undistort to remove the distortion from images.
 
-![image.png](attachment:image.png)
+![Undistortion](https://github.com/ArushiJindal/CarND-Advanced-Lane-Lines/blob/master/examples/2_camera%20calibration.PNG?raw=true)
 
 
 # Creation of thresholded binary image
@@ -39,18 +39,14 @@ This camera calibration matrix and distortion coefficeints are used with OpenCV 
 
 This code is part of functions abs_sobel_thresh, mag_thresh, dir_threshold, hls_select. I used combination of H and L channel color thresholds, and sobel gradients, direction and magniture ofgradients. 
 
-![Capture2.PNG](attachment:Capture2.PNG)
-
-
 
 # Perspective Transform (To create a bird's eye view of the image)
 
 
 The code is in corners_unwarp function. I chose one sample image and plotted the src and dst points on that sample image to be reference for the transformation.
 
-![image.png](attachment:image.png)
+![image.png](https://github.com/ArushiJindal/CarND-Advanced-Lane-Lines/blob/master/examples/4_birds%20eye.PNG?raw=true)
 
-![3.PNG](attachment:3.PNG)
 
 # Find the left and right lanes, fit polynomial, determine Radius of Curvature and the Position of Vehicle
 
@@ -66,7 +62,7 @@ The code given by Udacity is used for this step. As an input, the image obtained
 
 The polynomial fitted above is ploted on a warped image. Also the space between the polynomials is filled in to shpw the lane car is currently in. Minv is used to unwrap the image back to original from bird's eye view. This distance from centre and radius of curvature is printed on the final image.
 
-![image.png](attachment:image.png)
+![image.png](https://github.com/ArushiJindal/CarND-Advanced-Lane-Lines/blob/master/examples/5_poly%20fit.PNG?raw=true)
 
 # Video Processing
 
