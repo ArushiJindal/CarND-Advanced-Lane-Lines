@@ -80,8 +80,7 @@ If at any time, the pipeline fails to detect lane pixels based on the the previo
 Smoothing :- 
 Line detections will jump around from frame to frame a bit and it is preferable to smooth over the last n frames of video to obtain a cleaner result. I chose to average the coefficients of the polynomials for each lane line over a span of 10 frames.
 
-
-(result_full.mp4 provided)
+![Demo]  (https://user-images.githubusercontent.com/30857403/33134728-8286039c-cfc6-11e7-91ac-7355d2f5dc16.gif)
 
 # Possible Limitations
 
