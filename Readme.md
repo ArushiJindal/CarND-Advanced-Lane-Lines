@@ -25,7 +25,7 @@ OpenCV functions findChessboardCorners and drawChessboardCorners are used to ide
 
 These locations are then used in another OpenCV function calibrateCamera  to compute the camera calibration matrix and distortion coefficeints.
 
-!https://github.com/ArushiJindal/CarND-Advanced-Lane-Lines/blob/master/examples/1_camera%20calibration.PNG?raw=true
+![Camera Calibration](https://github.com/ArushiJindal/CarND-Advanced-Lane-Lines/blob/master/examples/1_camera%20calibration.PNG?raw=true)
 
 ## Distortion Correction
 
